@@ -6,6 +6,13 @@ export function Navbar() {
     return (
         <s.Navbar>
             <Logo />
+            <s.ul>
+                <s.li>Lorem Ipsum</s.li>
+                <s.li>Lorem Ipsum</s.li>
+                <s.li>Lorem Ipsum</s.li>
+                <s.li>Lorem Ipsum</s.li>
+                <s.li>Lorem Ipsum</s.li>
+            </s.ul>
             <ActionMenu />
         </s.Navbar>
     )
