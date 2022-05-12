@@ -1,6 +1,12 @@
+import { Logo } from '../Logo';
 import { ActionMenu } from '../ActionMenu';
+import * as s from './styles';
 
- export function Navbar() {
+export function Navbar() {
     return (
-        <ActionMenu />
-    )}
+        <s.Navbar>
+            <Logo />
+            <ActionMenu />
+        </s.Navbar>
+    )
+}
